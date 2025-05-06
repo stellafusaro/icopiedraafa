@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Last Day of Class (A Little Late Party)</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    body {
+      background-color: #1c1c1c;
+      color: #f5f5f5;
+      font-family: 'Georgia', serif;
+      text-align: center;
+      padding: 2rem;
+    }
+    img.headstone {
+      background-color: #1c1c1c;
+      width: 150px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      max-width: 600px;
+      margin: 0.5rem auto;
+      line-height: 1.6;
+    }
+    form {
+      margin-top: 2rem;
+    }
+    input[type="text"] {
+      padding: 0.5rem;
+      width: 250px;
+      margin: 0.5rem;
+      border: none;
+      border-radius: 4px;
+    }
+    button {
+      padding: 0.6rem 1.2rem;
+      background-color: #444;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #666;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://e7.pngegg.com/pngimages/249/510/png-clipart-headstone-cemetery-grave-death-cemetery-miscellaneous-logo-thumbnail.png" alt="Headstone" class="headstone">
+
+  <h1>Last Day of Class Party</h1>
+  <h2>(a little late)</h2>
+
+  <p> RIP 2024-25 school year, RIP c/o 2025 </p>
+  <p>You are invited to THE last day of class function/sendoff featuring the long awaited White Elephant Drink Exchange.</p>
+  <p>Make a drink for someone else. Don't say who it's for. Make it weird. Make it personal.</p>
+  <p>Date: May 7 | Time: 10 PM</p>
+  <p>Location: IRC - 552 West 114th St</p>
+  <p>Dress Code: Funeral</p>
+
+  <form action="/submit" method="POST">
+    <input type="text" name="your_name" placeholder="Your Name" required><br>
+    <input type="text" name="plus_one" placeholder="Plus One's Name (optional)"><br>
+    <button type="submit">RSVP</button>
+  </form>
+</body>
+</html>
+
